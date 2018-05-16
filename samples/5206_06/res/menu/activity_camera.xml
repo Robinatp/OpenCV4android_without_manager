@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_next_image_detection_filter"
+        android:title="@string/menu_next_image_detection_filter" />
+    <item
+        android:id="@+id/menu_next_curve_filter"
+        android:title="@string/menu_next_curve_filter" />
+    <item
+        android:id="@+id/menu_next_mixer_filter"
+        android:title="@string/menu_next_mixer_filter" />
+    <item
+        android:id="@+id/menu_next_convolution_filter"
+        android:title="@string/menu_next_convolution_filter" />
+    <item
+        android:id="@+id/menu_next_camera"
+        android:title="@string/menu_next_camera" />
+    <item
+        android:id="@+id/menu_take_photo"
+        android:title="@string/menu_take_photo" />
+</menu>

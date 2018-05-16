@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="holder for library settings">
+
+</language>
+<language name="Assembly">
+
+</language>
+<language name="GNU C++">
+<includepath>${NDKROOT}/platforms/android-9/arch-arm/usr/include</includepath>
+<includepath>${NDKROOT}/sources/cxx-stl/gnu-libstdc++/4.6/include</includepath>
+<includepath>${NDKROOT}/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi-v7a/include</includepath>
+<includepath>${ProjDirPath}/../../sdk/native/jni/include</includepath>
+
+</language>
+<language name="GNU C">
+<includepath>${NDKROOT}/platforms/android-9/arch-arm/usr/include</includepath>
+<includepath>${NDKROOT}/sources/cxx-stl/gnu-libstdc++/4.6/include</includepath>
+<includepath>${NDKROOT}/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi-v7a/include</includepath>
+<includepath>${ProjDirPath}/../../sdk/native/jni/include</includepath>
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="holder for library settings">
+
+</language>
+<language name="Assembly">
+
+</language>
+<language name="GNU C++">
+<macro>
+<name>ANDROID</name><value>1</value>
+</macro>
+
+</language>
+<language name="GNU C">
+<macro>
+<name>ANDROID</name><value>1</value>
+</macro>
+
+</language>
+</section>
+</cdtprojectproperties>
